@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitecore>
+  <phrase key="{0} is being stopped.">
+    <en>{0} is being stopped.</en>
+  </phrase>
+  <phrase key="{0} is running on {1} server and cannot be stopped on this server.">
+    <en>{0} is running on {1} server and cannot be stopped on this server.</en>
+  </phrase>
+  <phrase key="{0} is running on {1} server.">
+    <en>{0} is running on {1} server.</en>
+  </phrase>
+  <phrase key="{0} started at {1} and is running on {2} server for {3}.">
+    <en>{0} started at {1} and is running on {2} server for {3}.</en>
+  </phrase>
+  <phrase key="{0} started.">
+    <en>{0} started.</en>
+  </phrase>
+  <phrase key="An error occured while converting the collection model to Items.">
+    <en>An error occured while converting the collection model to Items.</en>
+  </phrase>
+  <phrase key="An error occured while converting the collection model to JSON.">
+    <en>An error occured while converting the collection model to JSON.</en>
+  </phrase>
+  <phrase key="Are you sure you want to rebuild the model?">
+    <en>Are you sure you want to rebuild the model?</en>
+  </phrase>
+  <phrase key="Are you sure you want to stop {0}?">
+    <en>Are you sure you want to stop {0}?</en>
+  </phrase>
+  <phrase key="Assigned value accessor does not belong selcted form.">
+    <en>Assigned value accessor does not belong selcted form.</en>
+  </phrase>
+  <phrase key="Assigned value accessor not supported.">
+    <en>Assigned value accessor not supported.</en>
+  </phrase>
+  <phrase key="Cannot establish connection. Client is null.">
+    <en>Cannot establish connection. Client is null.</en>
+  </phrase>
+  <phrase key="Cannot get a reference to the object used to communicate with the service.">
+    <en>Cannot get a reference to the object used to communicate with the service.</en>
+  </phrase>
+  <phrase key="Cannot get database.">
+    <en>Cannot get database.</en>
+  </phrase>
+  <phrase key="Cannot get the pipeline batch status because the pipeline batch is not currently running.">
+    <en>Cannot get the pipeline batch status because the pipeline batch is not currently running.</en>
+  </phrase>
+  <phrase key="Collection Model Information">
+    <en>Collection Model Information</en>
+  </phrase>
+  <phrase key="Connection model is null.">
+    <en>Connection model is null.</en>
+  </phrase>
+  <phrase key="Connection was successfully established.">
+    <en>Connection was successfully established.</en>
+  </phrase>
+  <phrase key="Convert Collection Model To Items.">
+    <en>Convert Collection Model To Items.</en>
+  </phrase>
+  <phrase key="Creating tenant">
+    <en>Creating tenant</en>
+  </phrase>
+  <phrase key="day">
+    <en>day</en>
+  </phrase>
+  <phrase key="days">
+    <en>days</en>
+  </phrase>
+  <phrase key="Definition Id">
+    <en>Definition Id</en>
+  </phrase>
+  <phrase key="Definition Name">
+    <en>Definition Name</en>
+  </phrase>
+  <phrase key="Definition repository is null.">
+    <en>Definition repository is null.</en>
+  </phrase>
+  <phrase key="Enter the name of the new item:">
+    <en>Enter the name of the new item:</en>
+  </phrase>
+  <phrase key="Entities submitted: {0}">
+    <en>Entities submitted: {0}</en>
+  </phrase>
+  <phrase key="Entity Type">
+    <en>Entity Type</en>
+  </phrase>
+  <phrase key="Exception during connection.">
+    <en>Exception during connection.</en>
+  </phrase>
+  <phrase key="Exception was thrown.">
+    <en>Exception was thrown.</en>
+  </phrase>
+  <phrase key="Form Field not set on value accessor.">
+    <en>Form Field not set on value accessor.</en>
+  </phrase>
+  <phrase key="Form Field requiered.">
+    <en>Form Field requiered.</en>
+  </phrase>
+  <phrase key="Form fiield does not belong selected form on value accessor set.">
+    <en>Form fiield does not belong selected form on value accessor set.</en>
+  </phrase>
+  <phrase key="Form not set on value accessor set.">
+    <en>Form not set on value accessor set.</en>
+  </phrase>
+  <phrase key="Form requiered.">
+    <en>Form requiered.</en>
+  </phrase>
+  <phrase key="Icon">
+    <en>Icon</en>
+  </phrase>
+  <phrase key="Id">
+    <en>Id</en>
+  </phrase>
+  <phrase key="Item does not represent collection model.">
+    <en>Item does not represent collection model.</en>
+  </phrase>
+  <phrase key="No base address for the xDB reference data service is specified.">
+    <en>No base address for the xDB reference data service is specified.</en>
+  </phrase>
+  <phrase key="No connection string named {0} is defined on the server.">
+    <en>No connection string named {0} is defined on the server.</en>
+  </phrase>
+  <phrase key="No dependency is identified in the configuration for the macro.">
+    <en>No dependency is identified in the configuration for the macro.</en>
+  </phrase>
+  <phrase key="No descendant that fits the specified settings was found for {0}.">
+    <en>No descendant that fits the specified settings was found for {0}.</en>
+  </phrase>
+  <phrase key="No mode is specified in the configuration for the macro.">
+    <en>No mode is specified in the configuration for the macro.</en>
+  </phrase>
+  <phrase key="Not supported value accessor set for form field.">
+    <en>Not supported value accessor set for form field.</en>
+  </phrase>
+  <phrase key="Object is null or not Endpoint.">
+    <en>Object is null or not Endpoint.</en>
+  </phrase>
+  <phrase key="Pipeline Batch Log Summary">
+    <en>Pipeline Batch Log Summary</en>
+  </phrase>
+  <phrase key="Read more in log file.">
+    <en>Read more in log file.</en>
+  </phrase>
+  <phrase key="selected form">
+    <en>selected form</en>
+  </phrase>
+  <phrase key="Selected item as form field wrong or not supported.">
+    <en>Selected item as form field wrong or not supported.</en>
+  </phrase>
+  <phrase key="Source Id">
+    <en>Source Id</en>
+  </phrase>
+  <phrase key="Target Id">
+    <en>Target Id</en>
+  </phrase>
+  <phrase key="The client responsible for reading the available models could not be found.">
+    <en>The client responsible for reading the available models could not be found.</en>
+  </phrase>
+  <phrase key="The mode '{0}' is not supported.">
+    <en>The mode '{0}' is not supported.</en>
+  </phrase>
+  <phrase key="The model was successfully converted.">
+    <en>The model was successfully converted.</en>
+  </phrase>
+  <phrase key="The selected {0} cannot be found.">
+    <en>The selected {0} cannot be found.</en>
+  </phrase>
+  <phrase key="The value currently assigned to {0} is not a valid ID. Select a different value.">
+    <en>The value currently assigned to {0} is not a valid ID. Select a different value.</en>
+  </phrase>
+  <phrase key="The value specified for {0} is not valid.">
+    <en>The value specified for {0} is not valid.</en>
+  </phrase>
+  <phrase key="This value cannot be set until the field {0} has been set.">
+    <en>This value cannot be set until the field {0} has been set.</en>
+  </phrase>
+  <phrase key="Unable to convert the selected item into a collection model.">
+    <en>Unable to convert the selected item into a collection model.</en>
+  </phrase>
+  <phrase key="value accessor">
+    <en>value accessor</en>
+  </phrase>
+  <phrase key="value accessor set">
+    <en>value accessor set</en>
+  </phrase>
+  <phrase key="Verification Failures">
+    <en>Verification Failures</en>
+  </phrase>
+  <phrase key="Verified Count Fail">
+    <en>Verified Count Fail</en>
+  </phrase>
+  <phrase key="Verified Count Success">
+    <en>Verified Count Success</en>
+  </phrase>
+  <phrase key="Verified Count Total">
+    <en>Verified Count Total</en>
+  </phrase>
+  <phrase key="xDB Model Resolver Not Found">
+    <en>xDB Model Resolver Not Found</en>
+  </phrase>
+</sitecore>

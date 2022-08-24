@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense" xmlns:sc="sitecore">
+    <PipelineBatchVerificationLogViewer>
+    <FormPage Icon="Office/32x32/window_dialog.png" Header="Pipeline Batch Log Summary">
+      <CodeBeside Type="Sitecore.DataExchange.Local.Controls.PipelineBatchVerificationLogViewerForm,Sitecore.DataExchange.Local"/>
+      
+      <Border class="scFlexColumnContainer" style="width:100%;height:100%;"  Padding="10px">
+          <Literal ID="NoDataLiteral" class="scFieldLabel sc-text-title" style="display:none;" Text="No verification data." />
+          <Listview ID="ListView" View="Details" style="overflow:inherit;height:auto;">
+          </Listview>
+          <Literal ID="VerFeilsLiteral" class="scFieldLabel sc-text-title" Text="Verification Failures" />
+          <Tabstrip ID="Tabstrip">
+          </Tabstrip>
+      </Border>
+        <Border class="scApplicationFooter" style="position:fixed; width:100%; left:0; bottom:0; z-index:100">
+            <Button ID="OK" class="scButton scButtonPrimary" Header="Save Result"/>
+            <Button ID="Cancel" Header="Close"/>
+        </Border>
+    </FormPage>
+  </PipelineBatchVerificationLogViewer>
+</control>
