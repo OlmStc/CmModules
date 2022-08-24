@@ -7,13 +7,32 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PlatformVersion>1.*</PlatformVersion>
+    <DataExchange>7.0.0</DataExchange>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Update="Sitecore.DataExchange" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.DataAccess" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.ExperienceForms" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Local" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Local.Sdk" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.MongoDB" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.Sc" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.Sc.Local" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.Sql" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.Sql.Local" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.XConnect" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.XConnect.Local" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Service.TenantService" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.MarketingAutomation.Activity" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.MarketingAutomation.Client" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.MarketingAutomation.Client.Configuration" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.ExperienceForms.Local" Version="$(DataExchange)" />
+    <PackageReference Update="Sitecore.DataExchange.Providers.ExperienceForms" Version="$(DataExchange)" />
     <PackageReference Update="Sitecore.XmCloud.Kernel" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.ContentSearch" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.ContentSearch.Linq" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.LayoutService" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.Assemblies" Version="$(PlatformVersion)" />
-    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="19.*" />
+    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="20.*" />
   </ItemGroup>
 </Project>

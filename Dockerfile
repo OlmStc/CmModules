@@ -45,4 +45,3 @@ RUN msbuild .\src\razl\razl.csproj /p:Configuration=$env:BUILD_CONFIGURATION /m 
 FROM mcr.microsoft.com/windows/nanoserver:1809
 WORKDIR /artifacts
 COPY --from=builder /build/docker/deploy/platform  ./sitecore/
-COPY --from=builder /build/docker/deploy/razl  ./sitecore/
